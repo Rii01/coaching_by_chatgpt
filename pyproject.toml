@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "graduation-research"
+version = "0.1.0"
+description = ""
+authors = ["e215749 <e215749@ie.u-ryukyu.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+slack-sdk = "^3.33.1"
+openai = "^1.51.0"
+requests = "^2.32.3"
+ngrok = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
